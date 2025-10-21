@@ -1,4 +1,4 @@
-import { supabaseAdmin } from "~/server/utils/supabaseAdmin";
+import { supabaseAdmin } from "~~/server/utils/supabaseAdmin";
 
 export default defineEventHandler(async () => {
   const { data, error } = await supabaseAdmin
