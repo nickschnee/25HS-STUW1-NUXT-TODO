@@ -14,6 +14,9 @@ const {
   removeTodo,
 } = useTodos();
 
+// const todoStuff = useTodos();
+// Then you'd have to use: todoStuff.todos, todoStuff.addTodo(), etc.
+
 onMounted(fetchTodos);
 
 async function onAdd() {
